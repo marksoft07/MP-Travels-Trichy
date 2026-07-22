@@ -1814,3 +1814,42 @@ body.dark-theme .google-rating-badge {
     border-color: rgba(255, 255, 255, 0.05);
 }
 
+/* Hero Mobile Car Image Style */
+.hero-mobile-car {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hero-mobile-car {
+        display: block;
+        width: 100%;
+        max-width: 290px;
+        margin: 24px auto 0;
+        text-align: center;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .hero-mobile-car-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: var(--radius-md);
+        border: 3px solid var(--white);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+        animation: slideLeft 1s ease;
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
