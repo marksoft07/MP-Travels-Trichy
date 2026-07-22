@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MP Travels, Cars and cabs in Trichy - Professional, clean, and affordable taxi services. Book Hatchbacks, Sedans, and SUVs. Call us at +91 96885 95843.">
+    <title>MP Travels | Cars & Cabs Trichy - Premium Travel Services</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="main-header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo" id="logo-link">
+                <img src="assets/logo_new.jpg" alt="MP Travels Logo" class="logo-img-square">
+                <span class="logo-text">MP <span class="logo-accent">Travels</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">Why Choose Us</a></li>
+                    <li><a href="#fleet" class="nav-link">Our Fleet</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:+919688595843" class="btn btn-outline call-btn" id="call-header-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 18px; height: 18px;">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.387a12.035 12.035 0 0 1-7.108-7.108c-.115-.44.05-1.07.387-1.352l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <span>+91 96885 95843</span>
+                </a>
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <!-- Light Mode Icon (Sun) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="theme-icon-light" style="width: 20px; height: 20px;">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m0 13.5V21M4.93 4.93l1.59 1.59m11.96 11.96l1.59 1.59M3 12h2.25m13.5 0H21M4.93 19.07l1.59-1.59m11.96-11.96l1.59 1.59M12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z" />
+                    </svg>
+                    <!-- Dark Mode Icon (Moon) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="theme-icon-dark" style="width: 20px; height: 20px;">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                    </svg>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-logo-card">
+                    <img src="assets/logo_new.jpg" alt="MP Travels Logo" class="hero-logo-img-square">
+                </div>
+                <span class="hero-badge">Comfortable & Secure Rides</span>
+                <h1 class="hero-title">Your Trusted Travel Partner in <span class="text-gradient">Trichy</span></h1>
+                <p class="hero-subtitle">Premium cars and cabs for your local sightseeing, airport transfers, and outstation travels. Enjoy a safe, sanitized, and professional journey with MP Travels.</p>
+                <div class="hero-info-pills">
+                    <div class="pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                        </svg>
+                        <span>Verified Drivers</span>
+                    </div>
+                    <div class="pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                        <span>Clean & Sanitized Fleet</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Booking / Inquiry Card -->
+            <div class="booking-card" id="booking-inquiry">
+                <h3>Quick Booking Inquiry</h3>
+                <p>Fill in details to get an instant quote on WhatsApp</p>
+                <form id="inquiry-form" class="booking-form">
+                    <div class="form-group">
+                        <label for="pickup-loc">Pickup Location</label>
+                        <input type="text" id="pickup-loc" placeholder="e.g., Trichy Airport, Junction" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="drop-loc">Drop Location</label>
+                        <input type="text" id="drop-loc" placeholder="e.g., Tanjore, Madurai, City center" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="travel-date">Date</label>
+                            <input type="date" id="travel-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="travel-time">Time</label>
+                            <input type="time" id="travel-time" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="vehicle-type">Select Vehicle Class</label>
+                        <select id="vehicle-type" required>
+                            <option value="" disabled selected>Choose a vehicle</option>
+                            <option value="Hatchback (Swift, Liva)">Hatchback (Budget Friendly)</option>
+                            <option value="Sedan (Dzire, Etios)">Sedan (Comfortable Ride)</option>
+                            <option value="SUV (Innova, Ertiga)">SUV / MUV (Spacious Family Trip)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="submit-inquiry-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="icon-whatsapp" style="width: 18px; height: 18px; margin-right: 8px;">
+                            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.729-1.465L0 24zm6.59-4.846c1.6.95 3.167 1.455 4.773 1.456 5.485 0 9.948-4.614 9.951-10.282.002-2.747-1.062-5.33-2.997-7.27C16.438 1.121 13.885.051 11.995.051c-5.493 0-9.957 4.612-9.96 10.282-.001 1.944.52 3.841 1.508 5.539L2.5 21.5l5.147-1.346zm11.782-7.143c-.302-.152-1.791-.884-2.068-.985-.278-.1-.481-.152-.683.152-.202.304-.783.985-.96 1.187-.178.203-.355.228-.658.077-.302-.152-1.278-.47-2.434-1.502-.898-.802-1.504-1.792-1.68-2.097-.177-.304-.019-.469.132-.62.136-.135.303-.355.455-.532.152-.178.202-.304.303-.507.102-.203.051-.38-.025-.532-.076-.152-.683-1.648-.936-2.257-.247-.593-.497-.513-.683-.523-.177-.009-.38-.011-.583-.011-.202 0-.531.076-.81.38-.278.304-1.062 1.039-1.062 2.535 0 1.497 1.088 2.943 1.24 3.146.152.203 2.142 3.272 5.19 4.588.725.313 1.29.5 1.731.64.729.232 1.392.199 1.916.121.584-.087 1.792-.733 2.045-1.442.253-.709.253-1.317.177-1.442-.076-.127-.278-.203-.58-.355z"/>
+                        </svg>
+                        <span>Check Availability on WhatsApp</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Banner Section -->
+    <section class="stats-banner-section">
+        <div class="container">
+            <div class="stats-grid-container">
+                <!-- Stat Item 1 -->
+                <div class="stat-item">
+                    <h2 class="stat-number">600+</h2>
+                    <p class="stat-label">RIDES COMPLETED</p>
+                </div>
+                <!-- Stat Item 2 -->
+                <div class="stat-item">
+                    <h2 class="stat-number">400+</h2>
+                    <p class="stat-label">HAPPY CUSTOMERS</p>
+                </div>
+                <!-- Stat Item 3 -->
+                <div class="stat-item">
+                    <h2 class="stat-number">7+</h2>
+                    <p class="stat-label">YEARS EXPERIENCE</p>
+                </div>
+                <!-- Stat Item 4 -->
+                <div class="stat-item">
+                    <h2 class="stat-number">100%</h2>
+                    <p class="stat-label">SAFE RECORD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tagline">Why Choose MP Travels?</span>
+                <h2 class="section-title">We Deliver the Best Travel Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 32px; height: 32px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                        </svg>
+                    </div>
+                    <h3>100% Safe & Reliable</h3>
+                    <p>Safety is our top priority. We verify all drivers, perform routine vehicle safety checks, and sanitize cabs before every ride.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 32px; height: 32px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3>Punctual Pickups</h3>
+                    <p>We value your time. Our professional drivers ensure prompt arrival at your pickup location, ensuring you never miss a schedule.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 32px; height: 32px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5h16.5c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125H3.75a1.125 1.125 0 01-1.125-1.125V5.625c0-.621.504-1.125 1.125-1.125z" />
+                        </svg>
+                    </div>
+                    <h3>Affordable Pricing</h3>
+                    <p>No hidden charges or surprise pricing. We offer crystal-clear per-kilometer rates and flat packages customized for your trip.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 32px; height: 32px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm0 0H8.25m4.125 0a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm0 0h-.375m-13.5 3.01c0-.61.47-1.11 1.077-1.166C5.161 11.53 7.076 11.243 9 11.243c1.924 0 3.84.287 5.548.388.609.056 1.077.556 1.077 1.166v2.106c0 .546-.38.995-.916 1.077-1.84.281-3.69.431-5.71.431-2.02 0-3.87-.15-5.71-.431A1.092 1.092 0 011.5 15.866v-2.106zm19.5 0c0-.61-.47-1.11-1.077-1.166C18.161 11.53 16.243 11.243 14.32 11.243c-1.92 0-3.84.287-5.544.388-.609.056-1.077.556-1.077 1.166v2.106c0 .546.38.995.916 1.077 1.84.281 3.69.431 5.71.431 2.02 0 3.87-.15 5.71-.431a1.092 1.092 0 00.916-1.077v-2.106z" />
+                        </svg>
+                    </div>
+                    <h3>24/7 Cab Availability</h3>
+                    <p>Day or night, we are here for you. Secure your car beforehand or make an urgent booking, and we'll have a cab ready.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Showcase Section -->
+    <section class="fleet-section" id="fleet">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tagline">Our Fleet</span>
+                <h2 class="section-title">Choose from Our Range of Clean Vehicles</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="fleet-grid">
+                <!-- Vehicle 1: Hatchback -->
+                <div class="fleet-card">
+                    <div class="fleet-img-container">
+                        <!-- Hatchback image -->
+                        <img src="assets/hatchback.png" alt="Hatchback Car" class="fleet-img">
+                        <span class="fleet-badge">Budget Class</span>
+                    </div>
+                    <div class="fleet-details">
+                        <h3>Hatchback</h3>
+                        <p class="fleet-subtitle">Swift, Liva, or equivalent</p>
+                        <div class="fleet-specs">
+                            <div class="spec">
+                                <span class="spec-label">Capacity:</span>
+                                <span class="spec-val">4 Passengers</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Luggage:</span>
+                                <span class="spec-val">2 Bags</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">AC:</span>
+                                <span class="spec-val">Yes (Fully Functional)</span>
+                            </div>
+                        </div>
+                        <div class="fleet-pricing">
+                            <span class="price-text">Best Budget Option</span>
+                            <span class="price-sub">Perfect for quick city trips and couples</span>
+                        </div>
+                        <a href="https://wa.me/919688595843?text=Hi%20MP%20Travels,%20I'm%20interested%20in%20booking%20a%20Hatchback%20cabs.%20Please%20provide%20rates." target="_blank" class="btn btn-sky btn-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="icon-whatsapp-btn" style="width: 18px; height: 18px; margin-right: 8px;">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.729-1.465L0 24zm6.59-4.846c1.6.95 3.167 1.455 4.773 1.456 5.485 0 9.948-4.614 9.951-10.282.002-2.747-1.062-5.33-2.997-7.27C16.438 1.121 13.885.051 11.995.051c-5.493 0-9.957 4.612-9.96 10.282-.001 1.944.52 3.841 1.508 5.539L2.5 21.5l5.147-1.346zm11.782-7.143c-.302-.152-1.791-.884-2.068-.985-.278-.1-.481-.152-.683.152-.202.304-.783.985-.96 1.187-.178.203-.355.228-.658.077-.302-.152-1.278-.47-2.434-1.502-.898-.802-1.504-1.792-1.68-2.097-.177-.304-.019-.469.132-.62.136-.135.303-.355.455-.532.152-.178.202-.304.303-.507.102-.203.051-.38-.025-.532-.076-.152-.683-1.648-.936-2.257-.247-.593-.497-.513-.683-.523-.177-.009-.38-.011-.583-.011-.202 0-.531.076-.81.38-.278.304-1.062 1.039-1.062 2.535 0 1.497 1.088 2.943 1.24 3.146.152.203 2.142 3.272 5.19 4.588.725.313 1.29.5 1.731.64.729.232 1.392.199 1.916.121.584-.087 1.792-.733 2.045-1.442.253-.709.253-1.317.177-1.442-.076-.127-.278-.203-.58-.355z"/>
+                            </svg>
+                            Book on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Vehicle 2: Sedan -->
+                <div class="fleet-card">
+                    <div class="fleet-img-container">
+                        <img src="assets/sedan.png" alt="Sedan Car" class="fleet-img">
+                        <span class="fleet-badge highlighted">Most Popular</span>
+                    </div>
+                    <div class="fleet-details">
+                        <h3>Comfortable Sedan</h3>
+                        <p class="fleet-subtitle">Swift Dzire, Toyota Etios, or equivalent</p>
+                        <div class="fleet-specs">
+                            <div class="spec">
+                                <span class="spec-label">Capacity:</span>
+                                <span class="spec-val">4 Passengers</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Luggage:</span>
+                                <span class="spec-val">3-4 Bags</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">AC:</span>
+                                <span class="spec-val">Yes (Fully Functional)</span>
+                            </div>
+                        </div>
+                        <div class="fleet-pricing">
+                            <span class="price-text">Premium Comfort</span>
+                            <span class="price-sub">Ideal for corporate visits & comfortable intercity travel</span>
+                        </div>
+                        <a href="https://wa.me/919688595843?text=Hi%20MP%20Travels,%20I'm%20interested%20in%20booking%20a%20Sedan%20cabs.%20Please%20provide%20rates." target="_blank" class="btn btn-sky btn-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="icon-whatsapp-btn" style="width: 18px; height: 18px; margin-right: 8px;">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.729-1.465L0 24zm6.59-4.846c1.6.95 3.167 1.455 4.773 1.456 5.485 0 9.948-4.614 9.951-10.282.002-2.747-1.062-5.33-2.997-7.27C16.438 1.121 13.885.051 11.995.051c-5.493 0-9.957 4.612-9.96 10.282-.001 1.944.52 3.841 1.508 5.539L2.5 21.5l5.147-1.346zm11.782-7.143c-.302-.152-1.791-.884-2.068-.985-.278-.1-.481-.152-.683.152-.202.304-.783.985-.96 1.187-.178.203-.355.228-.658.077-.302-.152-1.278-.47-2.434-1.502-.898-.802-1.504-1.792-1.68-2.097-.177-.304-.019-.469.132-.62.136-.135.303-.355.455-.532.152-.178.202-.304.303-.507.102-.203.051-.38-.025-.532-.076-.152-.683-1.648-.936-2.257-.247-.593-.497-.513-.683-.523-.177-.009-.38-.011-.583-.011-.202 0-.531.076-.81.38-.278.304-1.062 1.039-1.062 2.535 0 1.497 1.088 2.943 1.24 3.146.152.203 2.142 3.272 5.19 4.588.725.313 1.29.5 1.731.64.729.232 1.392.199 1.916.121.584-.087 1.792-.733 2.045-1.442.253-.709.253-1.317.177-1.442-.076-.127-.278-.203-.58-.355z"/>
+                            </svg>
+                            Book on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Vehicle 3: SUV / MUV -->
+                <div class="fleet-card">
+                    <div class="fleet-img-container">
+                        <img src="assets/suv.png" alt="SUV Car" class="fleet-img">
+                        <span class="fleet-badge">Family Class</span>
+                    </div>
+                    <div class="fleet-details">
+                        <h3>Spacious SUV / MUV</h3>
+                        <p class="fleet-subtitle">Innova Crysta, Ertiga, or equivalent</p>
+                        <div class="fleet-specs">
+                            <div class="spec">
+                                <span class="spec-label">Capacity:</span>
+                                <span class="spec-val">6-7 Passengers</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Luggage:</span>
+                                <span class="spec-val">5 Bags</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">AC:</span>
+                                <span class="spec-val">Yes (Dual AC vents)</span>
+                            </div>
+                        </div>
+                        <div class="fleet-pricing">
+                            <span class="price-text">Large Family Space</span>
+                            <span class="price-sub">Perfect for pilgrimages, family tours, and group outings</span>
+                        </div>
+                        <a href="https://wa.me/919688595843?text=Hi%20MP%20Travels,%20I'm%20interested%20in%20booking%20an%20SUV%20cabs.%20Please%20provide%20rates." target="_blank" class="btn btn-sky btn-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="icon-whatsapp-btn" style="width: 18px; height: 18px; margin-right: 8px;">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.729-1.465L0 24zm6.59-4.846c1.6.95 3.167 1.455 4.773 1.456 5.485 0 9.948-4.614 9.951-10.282.002-2.747-1.062-5.33-2.997-7.27C16.438 1.121 13.885.051 11.995.051c-5.493 0-9.957 4.612-9.96 10.282-.001 1.944.52 3.841 1.508 5.539L2.5 21.5l5.147-1.346zm11.782-7.143c-.302-.152-1.791-.884-2.068-.985-.278-.1-.481-.152-.683.152-.202.304-.783.985-.96 1.187-.178.203-.355.228-.658.077-.302-.152-1.278-.47-2.434-1.502-.898-.802-1.504-1.792-1.68-2.097-.177-.304-.019-.469.132-.62.136-.135.303-.355.455-.532.152-.178.202-.304.303-.507.102-.203.051-.38-.025-.532-.076-.152-.683-1.648-.936-2.257-.247-.593-.497-.513-.683-.523-.177-.009-.38-.011-.583-.011-.202 0-.531.076-.81.38-.278.304-1.062 1.039-1.062 2.535 0 1.497 1.088 2.943 1.24 3.146.152.203 2.142 3.272 5.19 4.588.725.313 1.29.5 1.731.64.729.232 1.392.199 1.916.121.584-.087 1.792-.733 2.045-1.442.253-.709.253-1.317.177-1.442-.076-.127-.278-.203-.58-.355z"/>
+                            </svg>
+                            Book on WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tagline">What We Do</span>
+                <h2 class="section-title">Professional Services for Every Occasion</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 32px; height: 32px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                        </svg>
+                    </div>
+                    <h3>Local Sightseeing Tours</h3>
+                    <p>Explore beautiful Trichy and nearby historic places like Rockfort Temple, Sri Ranganathaswamy Temple (Srirangam), Jambukeswarar Temple, and Kallanai Dam with our knowledgeable drivers.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 32px; height: 32px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                        </svg>
+                    </div>
+                    <h3>Outstation Travels</h3>
+                    <p>Planning a trip to Tanjore, Madurai, Chennai, Ooty, or Kodaikanal? Our outstation service offers highly comfortable sedans and family SUVs for hassle-free long rides.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 32px; height: 32px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-9h16.5m-15-6h13.5m-10.5-3h7.5M10.5 3v18m3-18v18" />
+                        </svg>
+                    </div>
+                    <h3>Airport Transfers</h3>
+                    <p>Timely pickup and drop services to and from Trichy International Airport (TRZ). We monitor flight timings to guarantee that we're always on schedule.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 32px; height: 32px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                        </svg>
+                    </div>
+                    <h3>Corporate Rentals</h3>
+                    <p>Specialized car renting packages for businesses, VIP guests, corporate events, and daily pick-drops for executives with top-tier premium cars.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exclusive India Tour Packages Section -->
+    <section class="tour-section" id="tours">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tagline">Explore Destinations</span>
+                <h2 class="section-title">Exclusive India Tour Packages</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <!-- Tour Filter Tabs -->
+            <div class="tour-tabs-container">
+                <button class="tour-tab-btn active" data-target="tours-south">South India</button>
+                <button class="tour-tab-btn" data-target="tours-north">North India</button>
+                <button class="tour-tab-btn" data-target="tours-east">East & North East India</button>
+                <button class="tour-tab-btn" data-target="tours-west">West & Central India</button>
+            </div>
+
+            <!-- Tour Grids -->
+            <div class="tour-grids-container">
+                <!-- South India Grid (Default Active) -->
+                <div class="tour-grid active" id="tours-south">
+                    <!-- Kerala -->
+                    <div class="tour-card">
+                        <img src="assets/tour_kerala.jpg" alt="Kerala Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Kerala</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Tamil Nadu -->
+                    <div class="tour-card">
+                        <img src="assets/tour_tamilnadu.jpg" alt="Tamil Nadu Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Tamil Nadu</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Andhra Pradesh -->
+                    <div class="tour-card">
+                        <img src="assets/tour_andhra.jpg" alt="Andhra Pradesh Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Andhra Pradesh</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Telangana -->
+                    <div class="tour-card">
+                        <img src="assets/tour_telangana.jpg" alt="Telangana Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Telangana</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Munnar (Featured Center Double Row) -->
+                    <!-- Munnar -->
+                    <div class="tour-card">
+                        <img src="assets/tour_munnar.jpg" alt="Munnar Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Munnar</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Karnataka -->
+                    <div class="tour-card">
+                        <img src="assets/tour_karnataka.jpg" alt="Karnataka Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Karnataka</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Ooty -->
+                    <div class="tour-card">
+                        <img src="assets/tour_ooty.jpg" alt="Ooty Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Ooty</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Pondicherry -->
+                    <div class="tour-card">
+                        <img src="assets/tour_pondicherry.jpg" alt="Pondicherry Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Pondicherry</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- North India Grid -->
+                <div class="tour-grid" id="tours-north" style="display: none;">
+                    <div class="tour-card">
+                        <img src="assets/tour_kashmir.jpg" alt="Kashmir" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Kashmir</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="assets/tour_agra.jpg" alt="Taj Mahal Agra" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Agra (Taj Mahal)</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="assets/tour_jaipur.jpg" alt="Jaipur" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Jaipur</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="assets/tour_manali.jpg" alt="Manali" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Manali</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Shimla -->
+                    <div class="tour-card">
+                        <img src="assets/tour_shimla.jpg" alt="Shimla" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Shimla</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?auto=format&fit=crop&w=600&h=400&q=80" alt="Varanasi" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Varanasi</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=600&h=400&q=80" alt="Delhi" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Delhi</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Amritsar -->
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1514222134-b57cbb8ce073?auto=format&fit=crop&w=600&h=400&q=80" alt="Amritsar Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Amritsar</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- East India Grid -->
+                <div class="tour-grid" id="tours-east" style="display: none;">
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=600&h=400&q=80" alt="Darjeeling" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Darjeeling</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&h=400&q=80" alt="Sikkim" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Sikkim</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=600&h=400&q=80" alt="Gangtok" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Gangtok</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80" alt="Meghalaya" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Meghalaya</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Kolkata -->
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=600&h=400&q=80" alt="Kolkata" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Kolkata</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="assets/tour_andhra.jpg" alt="Odisha" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Odisha</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="assets/tour_munnar.jpg" alt="Assam" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Assam</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Shillong -->
+                    <div class="tour-card">
+                        <img src="assets/tour_ooty.jpg" alt="Shillong Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Shillong</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- West & Central India Grid -->
+                <div class="tour-grid" id="tours-west" style="display: none;">
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&h=400&q=80" alt="Goa" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Goa</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=600&h=400&q=80" alt="Mumbai" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Mumbai</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&h=400&q=80" alt="Udaipur" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Udaipur</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&h=400&q=80" alt="Jaisalmer" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Jaisalmer</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Gujarat -->
+                    <div class="tour-card">
+                        <img src="assets/tour_telangana.jpg" alt="Gujarat" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Gujarat</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="assets/tour_karnataka.jpg" alt="Khajuraho" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Khajuraho</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <img src="assets/tour_tamilnadu.jpg" alt="Ajanta" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Ajanta Caves</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                    <!-- Rann of Kutch -->
+                    <div class="tour-card">
+                        <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&h=400&q=80" alt="Rann of Kutch Tour" class="tour-img">
+                        <div class="tour-overlay"></div>
+                        <div class="tour-info">
+                            <h3>Rann of Kutch</h3>
+                            <div class="tour-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tagline">Client Testimonials</span>
+                <h2 class="section-title">What Our Travelers Say</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Excellent service by MP Travels! The car was super clean and smelled great. The driver was very respectful and knew the route from Trichy to Srirangam perfectly. Highly recommended!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-info">
+                            <h4 class="name">Ramanathan K.</h4>
+                            <p class="location">Trichy</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Booked an SUV for a family trip to Kodaikanal. The price was highly competitive and the trip went incredibly smooth. The driver drove very safely on the hill roads. Wonderful experience."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-info">
+                            <h4 class="name">Priya S.</h4>
+                            <p class="location">Trichy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tagline">Have Questions?</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="faq-accordion-container">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Are toll gate fees and state taxes included in the booking fare?</span>
+                        <span class="faq-icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width: 18px; height: 18px;">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Standard outstation fares exclude toll gate charges, parking fees, and state entry permit taxes. These charges are collected dynamically based on actual usage during the journey. However, we can offer custom all-inclusive packages upon request.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is your cancellation policy?</span>
+                        <span class="faq-icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width: 18px; height: 18px;">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>We offer free cancellation up to 12 hours before the scheduled pickup time. Cancellations made within 12 hours of the journey may attract a small convenience charge to compensate the driver.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How are driver allowances handled for multi-day outstation trips?</span>
+                        <span class="faq-icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width: 18px; height: 18px;">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>For multi-day trips, a standard daily driver allowance (bata) is added to the bill. This covers the driver's food and accommodation expenses. The customer does not need to worry about providing separate accommodation for the driver.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I book a cab for local sightseeing in Trichy?</span>
+                        <span class="faq-icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width: 18px; height: 18px;">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Yes, absolutely! We offer local packages like 4-hour/40km or 8-hour/80km rentals, perfect for exploring Trichy's famous landmarks such as Srirangam Temple, Rockfort Temple, Kallanai Dam, and local markets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tagline">Get In Touch</span>
+                <h2 class="section-title">Contact MP Travels</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info Card -->
+                <div class="contact-info-card">
+                    <h3>Contact Information</h3>
+                    <p>Have any questions or looking to book a customized tour package? Feel free to reach out to us. We are available 24/7.</p>
+                    
+                    <div class="contact-details">
+                        <!-- Detail 1 -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 24px; height: 24px;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.387a12.035 12.035 0 0 1-7.108-7.108c-.115-.44.05-1.07.387-1.352l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                                </svg>
+                            </div>
+                            <div class="detail-text">
+                                <h4>Call Official Number</h4>
+                                <p><a href="tel:+919688595843">+91 96885 95843</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Detail 2 -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" style="width: 24px; height: 24px;">
+                                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.729-1.465L0 24zm6.59-4.846c1.6.95 3.167 1.455 4.773 1.456 5.485 0 9.948-4.614 9.951-10.282.002-2.747-1.062-5.33-2.997-7.27C16.438 1.121 13.885.051 11.995.051c-5.493 0-9.957 4.612-9.96 10.282-.001 1.944.52 3.841 1.508 5.539L2.5 21.5l5.147-1.346zm11.782-7.143c-.302-.152-1.791-.884-2.068-.985-.278-.1-.481-.152-.683.152-.202.304-.783.985-.96 1.187-.178.203-.355.228-.658.077-.302-.152-1.278-.47-2.434-1.502-.898-.802-1.504-1.792-1.68-2.097-.177-.304-.019-.469.132-.62.136-.135.303-.355.455-.532.152-.178.202-.304.303-.507.102-.203.051-.38-.025-.532-.076-.152-.683-1.648-.936-2.257-.247-.593-.497-.513-.683-.523-.177-.009-.38-.011-.583-.011-.202 0-.531.076-.81.38-.278.304-1.062 1.039-1.062 2.535 0 1.497 1.088 2.943 1.24 3.146.152.203 2.142 3.272 5.19 4.588.725.313 1.29.5 1.731.64.729.232 1.392.199 1.916.121.584-.087 1.792-.733 2.045-1.442.253-.709.253-1.317.177-1.442-.076-.127-.278-.203-.58-.355z"/>
+                                </svg>
+                            </div>
+                            <div class="detail-text">
+                                <h4>WhatsApp Chat</h4>
+                                <p><a href="https://wa.me/919688595843" target="_blank">Chat with us on WhatsApp</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Detail 3 -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 24px; height: 24px;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                </svg>
+                            </div>
+                            <div class="detail-text">
+                                <h4>Address</h4>
+                                <p>MP Travels, Cars and cabs,<br>Trichy - 620019</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-call-box">
+                        <h4>Need Urgent Booking?</h4>
+                        <p>Call us directly for immediate cab dispatch</p>
+                        <a href="tel:+919688595843" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 20px; height: 20px;">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.387a12.035 12.035 0 0 1-7.108-7.108c-.115-.44.05-1.07.387-1.352l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                            </svg>
+                            Call Now: +91 96885 95843
+                        </a>
+                    </div>
+                </div>
+
+                <!-- OpenStreetMap Map Card -->
+                <div class="map-card">
+                    <iframe 
+                        width="100%" 
+                        height="100%" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=78.6500%2C10.7500%2C78.7500%2C10.8500&amp;layer=mapnik&amp;marker=10.7905%2C78.7047" 
+                        style="border: 0; min-height: 350px; border-radius: 12px; display: block;"
+                    ></iframe>
+                    <div class="map-footer">
+                        <span>MP Travels is based in Trichy, Tamil Nadu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="assets/logo_new.jpg" alt="MP Travels Logo" class="logo-img-square footer-logo">
+                    <span class="logo-text">MP <span class="logo-accent">Travels</span></span>
+                </a>
+                <p>Premium cars and cab services in Trichy. Available 24/7 for safe, reliable, and affordable rides.</p>
+                <div class="whatsapp-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="icon-whatsapp-footer" style="width: 16px; height: 16px; margin-right: 8px;">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.729-1.465L0 24zm6.59-4.846c1.6.95 3.167 1.455 4.773 1.456 5.485 0 9.948-4.614 9.951-10.282.002-2.747-1.062-5.33-2.997-7.27C16.438 1.121 13.885.051 11.995.051c-5.493 0-9.957 4.612-9.96 10.282-.001 1.944.52 3.841 1.508 5.539L2.5 21.5l5.147-1.346zm11.782-7.143c-.302-.152-1.791-.884-2.068-.985-.278-.1-.481-.152-.683.152-.202.304-.783.985-.96 1.187-.178.203-.355.228-.658.077-.302-.152-1.278-.47-2.434-1.502-.898-.802-1.504-1.792-1.68-2.097-.177-.304-.019-.469.132-.62.136-.135.303-.355.455-.532.152-.178.202-.304.303-.507.102-.203.051-.38-.025-.532-.076-.152-.683-1.648-.936-2.257-.247-.593-.497-.513-.683-.523-.177-.009-.38-.011-.583-.011-.202 0-.531.076-.81.38-.278.304-1.062 1.039-1.062 2.535 0 1.497 1.088 2.943 1.24 3.146.152.203 2.142 3.272 5.19 4.588.725.313 1.29.5 1.731.64.729.232 1.392.199 1.916.121.584-.087 1.792-.733 2.045-1.442.253-.709.253-1.317.177-1.442-.076-.127-.278-.203-.58-.355z"/>
+                    </svg>
+                    <span>Official support: +91 96885 95843</span>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">Why Choose Us</a></li>
+                    <li><a href="#fleet">Our Fleet</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 MP Travels, Trichy. All Rights Reserved. Designed for premium comfort and safety.</p>
+                <p class="powered-by">Powered by - <a href="https://marksoft07.github.io/MarksoftSolutions/" target="_blank" class="powered-link">Marksoft Solutions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons (Call / WhatsApp) -->
+    <div class="fab-container">
+        <!-- Phone FAB -->
+        <a href="tel:+919688595843" class="fab-btn fab-call" aria-label="Call MP Travels">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 24px; height: 24px;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.387a12.035 12.035 0 0 1-7.108-7.108c-.115-.44.05-1.07.387-1.352l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+            </svg>
+            <span class="fab-tooltip">Call Us</span>
+        </a>
+        <!-- WhatsApp FAB -->
+        <a href="https://wa.me/919688595843" target="_blank" class="fab-btn fab-whatsapp" aria-label="Chat on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" style="width: 24px; height: 24px;">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.729-1.465L0 24zm6.59-4.846c1.6.95 3.167 1.455 4.773 1.456 5.485 0 9.948-4.614 9.951-10.282.002-2.747-1.062-5.33-2.997-7.27C16.438 1.121 13.885.051 11.995.051c-5.493 0-9.957 4.612-9.96 10.282-.001 1.944.52 3.841 1.508 5.539L2.5 21.5l5.147-1.346zm11.782-7.143c-.302-.152-1.791-.884-2.068-.985-.278-.1-.481-.152-.683.152-.202.304-.783.985-.96 1.187-.178.203-.355.228-.658.077-.302-.152-1.278-.47-2.434-1.502-.898-.802-1.504-1.792-1.68-2.097-.177-.304-.019-.469.132-.62.136-.135.303-.355.455-.532.152-.178.202-.304.303-.507.102-.203.051-.38-.025-.532-.076-.152-.683-1.648-.936-2.257-.247-.593-.497-.513-.683-.523-.177-.009-.38-.011-.583-.011-.202 0-.531.076-.81.38-.278.304-1.062 1.039-1.062 2.535 0 1.497 1.088 2.943 1.24 3.146.152.203 2.142 3.272 5.19 4.588.725.313 1.29.5 1.731.64.729.232 1.392.199 1.916.121.584-.087 1.792-.733 2.045-1.442.253-.709.253-1.317.177-1.442-.076-.127-.278-.203-.58-.355z"/>
+            </svg>
+            <span class="fab-tooltip">WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
