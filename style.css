@@ -183,11 +183,47 @@ img {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: var(--primary-blue);
     font-size: 1.5rem;
     font-weight: 800;
     font-family: var(--font-heading);
+    white-space: nowrap;
 }
+
+.logo-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--primary-blue);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.logo-text {
+    white-space: nowrap;
+}
+
+.header-phone-mobile {
+    display: none;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--accent-sky);
+    background-color: rgba(14, 165, 233, 0.1);
+    border: 1px solid rgba(14, 165, 233, 0.2);
+    padding: 3px 8px;
+    border-radius: var(--radius-full);
+    margin-left: 8px;
+    font-family: var(--font-body);
+    text-decoration: none;
+    transition: var(--transition-fast);
+    white-space: nowrap;
+}
+
+.header-phone-mobile:hover {
+    background-color: rgba(14, 165, 233, 0.25);
+    border-color: rgba(14, 165, 233, 0.45);
+}
+
+
 
 .logo-img-square {
     height: 44px;
@@ -1051,6 +1087,10 @@ img {
         height: 36px;
         width: 36px;
     }
+
+    .header-phone-mobile {
+        display: block;
+    }
     
     .mobile-toggle {
         display: flex;
@@ -1091,18 +1131,8 @@ img {
         font-size: 1.15rem;
     }
     
-    .call-btn span {
-        display: none;
-    }
-    
     .call-btn {
-        padding: 10px;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
+        display: none !important;
     }
     
     .call-btn svg {
@@ -1122,13 +1152,21 @@ img {
     }
     
     .hero-logo-card {
+        display: block;
+        width: fit-content;
+        margin: 0 auto 16px;
         padding: 8px;
-        margin-bottom: 16px;
     }
     
     .hero-logo-img-square {
         height: 64px;
         width: 64px;
+    }
+
+    .hero-badge {
+        display: block;
+        width: fit-content;
+        margin: 0 auto 20px;
     }
     
     .hero-title {
@@ -1538,11 +1576,16 @@ body.dark-theme .faq-question {
     }
     
     .logo-text {
-        font-size: 1.15rem;
+        font-size: 1.1rem;
+    }
+
+    .header-phone-mobile {
+        font-size: 0.72rem;
+        margin-left: 4px;
     }
     
     .header-actions {
-        gap: 8px;
+        gap: 6px;
     }
 
     .stats-grid-container {
