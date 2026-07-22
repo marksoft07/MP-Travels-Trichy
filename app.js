@@ -207,4 +207,22 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Testimonials Expand/Collapse Logic
+    const toggleReviewsBtn = document.getElementById('toggle-reviews-btn');
+    const moreReviews = document.getElementById('more-reviews');
+
+    if (toggleReviewsBtn && moreReviews) {
+        toggleReviewsBtn.addEventListener('click', () => {
+            const isClosed = moreReviews.style.maxHeight === '0px' || !moreReviews.style.maxHeight || moreReviews.style.maxHeight === '0';
+            if (isClosed) {
+                moreReviews.style.maxHeight = '2000px'; // Set to large enough value for transitions
+                toggleReviewsBtn.textContent = 'Show Less Reviews';
+            } else {
+                moreReviews.style.maxHeight = '0px';
+                toggleReviewsBtn.textContent = 'Show More Reviews';
+            }
+        });
+    }
 });
+

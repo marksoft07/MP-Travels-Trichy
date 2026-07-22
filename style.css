@@ -1737,3 +1737,37 @@ body.dark-theme .tour-tab-btn.active {
     }
 
 }
+
+/* Google Rating Badge Style */
+.google-rating-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--white);
+    padding: 6px 14px;
+    border-radius: var(--radius-full);
+    box-shadow: var(--shadow-sm);
+    margin-top: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.google-rating-badge .badge-stars {
+    color: #fbbf24; /* Google yellow stars */
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+}
+
+.google-rating-badge .badge-text {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.google-rating-badge .badge-text strong {
+    color: var(--text-main);
+}
+
+body.dark-theme .google-rating-badge {
+    background-color: var(--bg-card);
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
